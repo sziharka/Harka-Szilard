@@ -1,0 +1,94 @@
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .7);
+  border-radius: 10px;
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+.links {
+  margin-top: 34px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('assets/eEugwTj.jpg'), url('assets/MbyYiyQ.jpg');
+  background-position: right center, left center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50% 100%;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+  margin-top: -50px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+.abaut {
+  font-style: italic;
+}
+
+i:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  font-size: 25px;
+  font-family: courier new;
+}
+
+.social-icon {
+  color: hsla(0, 0%, 0%, .5);
+}
+
+span {
+  color: hsla(0, 0%, 0%, .5);
+}
