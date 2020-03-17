@@ -58,6 +58,7 @@ img:hover {
 
 ul {
   list-style-type: none;
+  margin-top: 0.5rem;
 }
 
 li {
