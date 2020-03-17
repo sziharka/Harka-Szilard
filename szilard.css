@@ -1,7 +1,7 @@
 .profile-card {
   background-color: hsla(0, 0%, 100%, .7);
-  border-radius: 10px;
-  width: 480px;
+  border-radius: 0.625rem;
+  width: 30rem;
   max-width: calc(100vw - 10px);
 }
 
@@ -10,7 +10,7 @@
 }
 
 .links {
-  margin-top: 34px;
+  margin-top: 2.125rem;
 }
 
 * {
@@ -41,10 +41,10 @@ body {
 }
 
 img {
-  width: 120px;
-  height: 120px;
-  border-radius: 10px;
-  padding: 1px;
+  width: 28%;
+  height: 28%;
+  border-radius: 0.625rem;
+  padding: 0.0625rem;
   background-color: #666;
   transition: all 0.5s ease-in-out;
   filter: grayscale(50%);
@@ -82,7 +82,8 @@ i:hover {
 
 h1 {
   font-family: 'Quattrocento', 'courier new', serif;
-  font-size: 25px;
+  font-size: 1.57rem;
+  margin-top: 1rem;
 }
 
 h2 {
